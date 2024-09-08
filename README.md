@@ -5,6 +5,7 @@ the strategy script must be coded in Javascript, and not Lua script.
 # Use: <br />
 
 <b>functions:</b> `resetseed(length), resetstats(), vault(amount), log('text'), start(), stop(), resetAll(), resetChart(), deleteLogs()`
+
 `claimRakeback()` - use for claiming rakeback, should use every 30 mins, or every 1000 bets, but not every bet cause it can cause lag in long run (too many api call to server)
 
 !!the strategy must be in `dobet()` method, and `dobet()` must be declared as shown below!!
